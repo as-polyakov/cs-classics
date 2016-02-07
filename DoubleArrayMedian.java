@@ -8,7 +8,7 @@ public class DoubleArrayMedian {
         if( m < 0) {
             m =  median(0, arr2.length - 1, arr2, arr1);
             if(m < 0)
-                throw new IlegalStateException("median not found"); 
+                throw new IllegalStateException("median not found");
         }
         System.out.println(m);
 
